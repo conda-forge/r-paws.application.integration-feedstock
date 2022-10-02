@@ -1,4 +1,4 @@
-{% set version = '0.1.12' %}
+{% set version = "0.1.13" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.application.integration_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.application.integration/paws.application.integration_{{ version }}.tar.gz
-  sha256: 82e0a7065b4fea37f36688660e6dfcb7f782d1602c03184353371dc3606a9e52
+  sha256: 7c4410d26be39a2cefc895f940c0049b6e62a3bb312fc725649e5cee7195b963
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -39,9 +39,7 @@ test:
 about:
   home: https://github.com/paws-r/paws
   license: Apache-2.0
-  summary: Interface to 'Amazon Web Services' application integration services, including 'Simple
-    Queue Service' ('SQS') message queue, 'Simple Notification Service' ('SNS') publish/subscribe
-    messaging, and more <https://aws.amazon.com/>.
+  summary: Interface to 'Amazon Web Services' application integration services, including 'Simple Queue Service' ('SQS') message queue, 'Simple Notification Service' ('SNS') publish/subscribe messaging, and more <https://aws.amazon.com/>.
   license_family: APACHE
   license_file: LICENSE.txt
 
