@@ -1,4 +1,4 @@
-{% set version = "0.1.13" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.application.integration_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.application.integration/paws.application.integration_{{ version }}.tar.gz
-  sha256: 7c4410d26be39a2cefc895f940c0049b6e62a3bb312fc725649e5cee7195b963
+  sha256: 6f4852cd157a18593ad531cc1d98464ea7fc5e0d906caa48f59f2a3f3099e954
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
