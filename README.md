@@ -1,11 +1,11 @@
-About r-paws.application.integration
-====================================
+About r-paws.application.integration-feedstock
+==============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.application.integration-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.application.integration-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' application integration services, including 'Simple Queue Service' ('SQS') message queue, 'Simple Notification Service' ('SNS') publish/subscribe messaging, and more <https://aws.amazon.com/>.
 
