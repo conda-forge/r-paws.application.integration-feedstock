@@ -26,10 +26,10 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-paws.common >=0.3.0
+    - r-paws.common >=0.5.4
   run:
     - r-base
-    - r-paws.common >=0.3.0
+    - r-paws.common >=0.5.4
 
 test:
   commands:
@@ -48,8 +48,7 @@ extra:
     - conda-forge/r
     - achimgaedke
 
-
-  # Package: paws.application.integration
+# Package: paws.application.integration
 # Title: 'Amazon Web Services' Application Integration Services
 # Version: 0.1.12
 # Authors@R: c(person(given = "David", family = "Kretch", role = c("aut", "cre"), email = "david.kretch@gmail.com"), person(given = "Adam", family = "Banker", role = "aut", email = "adam.banker39@gmail.com"), person(given = "Amazon.com, Inc.", role = "cph"))
