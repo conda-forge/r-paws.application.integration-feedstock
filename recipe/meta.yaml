@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.application.integration_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.application.integration/paws.application.integration_{{ version }}.tar.gz
-  sha256: 8a627a36094b729b3b983a4f348a83bdd319883df2fa1ef842c8a92ab3edb372
+  sha256: 7ebadd4df358d1f7ec66b1f0c6398dea4b2158c270ac9c69e2d3a47e8f511cef
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
